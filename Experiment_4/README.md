@@ -62,7 +62,9 @@ END LOOP;
 END $$;
 ```
 
-**Output:** <img width="667" height="406" alt="image" src="https://github.com/user-attachments/assets/c8ed97ef-7c37-483c-8474-96ea99a8f746" />
+**Output:** 
+
+<img width="667" height="406" alt="image" src="https://github.com/user-attachments/assets/c8ed97ef-7c37-483c-8474-96ea99a8f746" />
 
 ---
 
@@ -99,7 +101,9 @@ BEGIN
 END $$;
 ```
 
-**Output:** <img width="703" height="325" alt="image" src="https://github.com/user-attachments/assets/0417ce97-71d7-43f0-ab32-ef265f2d4634" />
+**Output:** 
+
+<img width="703" height="325" alt="image" src="https://github.com/user-attachments/assets/0417ce97-71d7-43f0-ab32-ef265f2d4634" />
 
 ---
 
@@ -126,7 +130,9 @@ BEGIN
 END $$;
 ```
 
-**Output:** <img width="619" height="330" alt="image" src="https://github.com/user-attachments/assets/8bff6ef9-06f2-414e-b038-e2bdc58b3ec8" />
+**Output:** 
+
+<img width="619" height="330" alt="image" src="https://github.com/user-attachments/assets/8bff6ef9-06f2-414e-b038-e2bdc58b3ec8" />
 
 ---
 
@@ -154,7 +160,9 @@ BEGIN
 END $$;
 ```
 
-**Output:** <img width="609" height="341" alt="image" src="https://github.com/user-attachments/assets/df76b5a0-15a5-49e0-be91-e4b39644e0b5" />
+**Output:** 
+
+<img width="609" height="341" alt="image" src="https://github.com/user-attachments/assets/df76b5a0-15a5-49e0-be91-e4b39644e0b5" />
 
 ---
 
@@ -183,7 +191,9 @@ END $$;
 SELECT * FROM employee;
 ```
 
-**Output:** <img width="709" height="394" alt="image" src="https://github.com/user-attachments/assets/1e707f71-de3d-429d-90bd-6a3c7d00b662" />
+**Output:** 
+
+<img width="709" height="394" alt="image" src="https://github.com/user-attachments/assets/1e707f71-de3d-429d-90bd-6a3c7d00b662" />
 
 ---
 
@@ -212,7 +222,9 @@ BEGIN
 END $$;
 ```
 
-**Output:** <img width="549" height="247" alt="image" src="https://github.com/user-attachments/assets/5cf7d9e4-f949-4cda-b5ca-056b7bc25ec0" />
+**Output:** 
+
+<img width="549" height="247" alt="image" src="https://github.com/user-attachments/assets/5cf7d9e4-f949-4cda-b5ca-056b7bc25ec0" />
 
 ---
 
