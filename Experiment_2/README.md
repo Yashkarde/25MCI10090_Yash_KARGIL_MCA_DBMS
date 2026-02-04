@@ -1,29 +1,31 @@
-
+# Experiment 4
 Student Name: Yash Karde			            UID: 25MCI10090
 Branch: M.C.A(A.l & M.L)					        Section/Group: 25MAM-1 A
 Semester: 2nd                    					Date of Performance:12/01/2026
 Subject Name: TECHINCAL SKILLS            Subject Code:25CAP-652
 
-                                                          WORKSHEET 2
-AIM: To design and implement a sample database system using DDL, DML, and DCL commands, including database creation, data manipulation, schema modification, and role-based access control to ensure data integrity and secure, read-only access for authorized users.
+                                                           
+## AIM: 
+To design and implement a sample database system using DDL, DML, and DCL commands, including database creation, data manipulation, schema modification, and role-based access control to ensure data integrity and secure, read-only access for authorized users.
 S/W Requirement: Oracle Database Express Edition and  pgAdmin
-OBJECTIVES:
-●	To retrieve specific data using filtering conditions
-●	To sort query results using single and multiple attributes
-●	To perform aggregation using grouping techniques
-●	To apply conditions on aggregated data
-●	To understand real world analytical queries commonly asked in placement interviews
+
+## OBJECTIVES:
+-	To retrieve specific data using filtering conditions
+-	To sort query results using single and multiple attributes
+-	To perform aggregation using grouping techniques
+-	To apply conditions on aggregated data
+-	To understand real world analytical queries commonly asked in placement interviews
 Given:
 Practical / Experiment Steps
 
-Step 1:
+### Step 1:
 
 Database and Table Preparation
-●	Start the PostgreSQL server.
-●	Open the PostgreSQL client tool.
-●	Create a database for the experiment.
-●	Prepare a sample table representing customer orders containing details such as customer name, product, quantity, price, and order date.
-●	Insert sufficient sample records to allow meaningful analysis.
+-	Start the PostgreSQL server.
+-	Open the PostgreSQL client tool.
+-	Create a database for the experiment.
+-	Prepare a sample table representing customer orders containing details such as customer name, product, quantity, price, and order date.
+-	Insert sufficient sample records to allow meaningful analysis.
 Querry:
 Table Creation:
 CREATE TABLE CustomerOrders (
@@ -55,7 +57,7 @@ Output:
 
 
 ________________________________________
-Step 2: 
+### Step 2: 
 
 Filtering Data Using Conditions
 ●	Execute data retrieval operations to display only those records that satisfy specific conditions, such as higher priced orders.
@@ -75,12 +77,12 @@ WHERE
 Output:
  <img width="1090" height="264" alt="image" src="https://github.com/user-attachments/assets/eed0270b-72ff-4714-bcdf-c62d57f835e7" />
 
-Step 3: 
+### Step 3: 
 
 Sorting Query Results
-●	Retrieve selected columns from the table and arrange the output based on numerical values such as price.
-●	Perform sorting using both ascending and descending order.
-●	Apply sorting on more than one attribute to understand priority based ordering.
+-	Retrieve selected columns from the table and arrange the output based on numerical values such as price.
+-	Perform sorting using both ascending and descending order.
+-	Apply sorting on more than one attribute to understand priority based ordering.
 Querry:
 Sort orders by price in ascending order
 SELECT *
@@ -111,11 +113,11 @@ Output:
  <img width="767" height="324" alt="image" src="https://github.com/user-attachments/assets/0b2d91ae-19bd-406f-80d5-12e4f26ad7fb" />
 
 
-Step 4: 
+### Step 4: 
 
 Grouping Data for Aggregation
-●	Group records based on a common attribute such as product.
-●	Calculate aggregate values like total sales for each group.
+-	Group records based on a common attribute such as product.
+-	Calculate aggregate values like total sales for each group.
 Total sales for each product
 Querry:
 SELECT 
@@ -138,7 +140,7 @@ GROUP BY Product;
 Output:
  <img width="443" height="200" alt="image" src="https://github.com/user-attachments/assets/11ada861-199b-4fe1-be3a-9c6ed58fba3d" />
 
-Step 5: 
+### Step 5: 
 
 Applying Conditions on Aggregated Data
 ●	Apply conditions on grouped results to retrieve only those groups that satisfy specific aggregate criteria.
@@ -167,9 +169,9 @@ GROUP BY Product;
 Output:
  <img width="448" height="147" alt="image" src="https://github.com/user-attachments/assets/ad04252a-763c-4894-bf9e-203f4ffe2862" />
 
-Step 6: Conceptual Understanding of Filtering vs Aggregation Conditions
-●	Analyze scenarios where conditions are incorrectly applied before grouping.
-●	Correctly apply conditions after grouping to avoid logical errors.
+### Step 6: Conceptual Understanding of Filtering vs Aggregation Conditions
+-	Analyze scenarios where conditions are incorrectly applied before grouping.
+-	Correctly apply conditions after grouping to avoid logical errors.
 Incorrect usage:
 Querry:
 SELECT Product, SUM(Price)
@@ -190,12 +192,12 @@ Output:
 
 
 Learning Outcomes:
-•	Understand how to create relational database tables using appropriate data types and constraints
-•	Learn to retrieve required data from a table using row-level filtering with the WHERE clause.
-•	Gain the ability to apply column-level (group-level) filtering using the HAVING clause.
-•	Develop practical knowledge of using CASE statements for conditional logic in SQL queries.
-•	Understand the use of aggregate functions such as SUM(), AVG(), and COUNT() for analytical reporting.
-•	Clearly differentiate between row-level filtering and group-level filtering, and apply them correctly in real-world SQL scenarios.
+-	Understand how to create relational database tables using appropriate data types and constraints
+-	Learn to retrieve required data from a table using row-level filtering with the WHERE clause.
+-	Gain the ability to apply column-level (group-level) filtering using the HAVING clause.
+-	Develop practical knowledge of using CASE statements for conditional logic in SQL queries.
+-	Understand the use of aggregate functions such as SUM(), AVG(), and COUNT() for analytical reporting.
+-	Clearly differentiate between row-level filtering and group-level filtering, and apply them correctly in real-world SQL scenarios.
 
 
 
