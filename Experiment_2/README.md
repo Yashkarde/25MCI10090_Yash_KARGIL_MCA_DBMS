@@ -16,7 +16,7 @@
 
 ## 🎯 AIM
 
-To design and implement a sample database system using **DDL, DML, and DCL commands**, including database creation, data manipulation, schema modification, and role-based access control to ensure data integrity and secure, read-only access for authorized users.
+To implement and analyze SQL SELECT queries using filtering, sorting, grouping, and aggregation concepts in PostgreSQL for efficient data retrieval and analytical reporting.
 
 **S/W Requirement:** Oracle Database Express Edition and pgAdmin
 
