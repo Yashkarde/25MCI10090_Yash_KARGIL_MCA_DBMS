@@ -148,12 +148,13 @@ CALL delete_employee(1);
 
 Output:
 
+i. Insert in a table :- 
 <img width="430" height="192" alt="image" src="https://github.com/user-attachments/assets/810a9c95-71b3-4ec4-9ddb-a98798a591a6" />
 
-
+ii. Update in a table :- 
 <img width="492" height="202" alt="image" src="https://github.com/user-attachments/assets/aa7004ec-7ef1-4424-9a83-a477bbad8fe4" />
 
-
+iii. delete in a table :- 
 <img width="462" height="166" alt="image" src="https://github.com/user-attachments/assets/6c558d95-f579-4407-a76d-8db1afb7a5b7" />
 
 ---
